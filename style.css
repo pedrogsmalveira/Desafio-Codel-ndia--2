@@ -127,6 +127,16 @@ body {
 .article__topc__image__topc img:hover  {
     width: 180px;
 }
+
+@media (max-width:345px) {
+    .left__image__text a{
+        margin-top: -56px;
+    }
+
+    .left__image__text__sub a{
+        margin-top: 9px;
+    }
+}
 /* Article fim */
 
 /* Inicio footer */
