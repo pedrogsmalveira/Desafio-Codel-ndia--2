@@ -107,8 +107,8 @@ body {
     text-align: center;
     flex-wrap: wrap;
     gap: 13px;
-    margin-right: 33px;
-    margin-left: 33px;
+    margin-right: 15%;
+    margin-left: 15%;
 }
 
 .article__topc__jordan {
