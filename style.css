@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+
+body {
+    margin: 0;
+    background: #F9F9F9;
+
+}
+
+/* Header inicio */
+.header__discount__topc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    text-align: center;
+    background: #181818;
+}
+
+.header__discount a {
+    color: #F9F9F9;
+
+    font-size: .71rem;
+}
+
+.header__jordan__topc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: end;
+}
+
+.header__jordan h3 {
+    margin-top: 7px;
+    margin-bottom: 6px;
+}
+
+.header__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__image a {
+    position: absolute;
+    margin-left: 7%;
+    color: #F9F9F9;
+    z-index: 1;
+}
+
+.left__image__text a {
+    margin-top: -34px;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.left__image__text__sub a {
+    font-weight: 400;
+    font-size: .7rem;
+}
+
+.header__image img {
+    width: 100%;
+    max-width: 100%;
+    height: 41vh;
+    filter: brightness(50%);
+}
+
+@media (max-width:620px) {
+    .header__image img {
+        height: 27vh;
+    }
+
+}
+/*Header fim  */
+
+/* Inicio article */
+.article__topc__highlights {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.article__highlights__txt h2 {
+    font-weight: 600;
+}
+
+.article__topc___free h5 {
+    margin-top: 9px;
+    color: #474747;
+    font-weight: 500;
+
+}
+
+.article__cards__jordan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 13px;
+    margin-right: 33px;
+    margin-left: 33px;
+}
+
+.article__topc__jordan {
+    width: 220px;
+    height: 200px;
+    background: #EBE9EA;
+    border-radius: 2px;
+}
+
+.article__topc__image__topc img {
+    width: 200px;
+    margin-top: 10%;
+    transition: all .5s;
+}
+
+.article__topc__image__topc img:hover  {
+    width: 180px;
+}
+/* Article fim */
+
+/* Inicio footer */
+.footer__bar__end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    background-color: #181818;
+    height: 30px;
+}
+
+.footer__bar__txt a {
+    color: #F9F9F9;
+    font-size: 12px;
+}
